@@ -125,6 +125,7 @@ body div h3{
     margin-left: 80px;
     margin-top: 40px;
 }
+
 body h4{
     width: 500px;
     position: absolute;
@@ -172,7 +173,30 @@ body h4{
 .text2 h4{
     margin-top: -135px;
 }
-/* footer */
+.date{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    color: #999999;
+    margin-left: 675px;
+}
+.date1{
+    margin-top: -1875px;
+}
+.date2{
+    margin-top: 425px;
+}
+.date3{
+    margin-top: 275px;
+}
+.date4{
+    margin-top: 375px;
+}
+.date5{
+    margin-top: 325px;
+}
+.date6{
+    margin-top: 390px;
+}
 /* footer */
 footer{
     margin: 0;
