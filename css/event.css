@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500&family=Quicksand:wght@300;400;500&family=Raleway:wght@200;400;500&display=swap');@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Quicksand:wght@300;400;500&family=Raleway:wght@100;200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;600;900&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+html{
+    width:1440px;
+    height:2500px;
+    box-sizing: border-box;
+ }
+ *,*:before,*:after{
+     box-sizing: inherit;
+ }
+ .headflex{
+    display:flex; 
+}
+.headtitle{
+    font-family: 'Sawarabi Mincho', sans-serif;
+    display:block;
+    width: 500px;
+    height: 72px;
+    margin-left: 10px;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    color: #999999;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+.headtitle:hover{
+    color: #303030;
+    transition: 0.5s;
+}
+.button-list{
+    display: flex;
+    margin-top: 72px;
+}
+.nav-list-item{
+    list-style: none;
+}
+.btn{
+    display: block;
+    height: 38px;
+    color: #999999;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 272px;
+    text-align: center;
+    line-height: 38px;
+    transition: 0.5s;
+}
+.btn:hover{
+    transition: 0.5s;
+    color: #303030;
+}
+
+.button1{
+    width: 137px;
+    line-height: 35px;
+}
+.button2{
+    width:120px;
+    margin-left: 0px;
+    color: #303030;
+}
+.button3{
+    width:74px;
+    margin-left: 35px;
+}
+.button4{
+    width:137px;
+    margin-left: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+div h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    letter-spacing: 20px;
+    color: white;
+    position: relative;
+    margin-top: -260px;
+    margin-left: 450px;
+    text-shadow: 0 0 1px black, 0 0 5px #303030;
+}
+.cover{
+    width: 1440px;
+    height: 450px;
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+.picplace{
+    display: flex;
+}
+.pic{
+    width: 335px;
+    height: 400px;
+    background-color: #a6a6a6;
+    margin-top: 179px;
+    text-decoration: none;
+    overflow: hidden;
+    transform: scale(1,1);
+    transition: all 0.5s ease-out;
+    border-radius: 5px;
+    margin-left: 109px;
+}
+.pic:hover{
+    transform: scale(1.1,1.1);
+}
+.name{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #303030;
+    margin-top: 27px;
+}
+.intro{
+    text-decoration: none;
+    color: #303030;
+}
+.name1{
+    margin-left:225px;
+}
+.name2{
+    margin-left: 215px;
+}
+.name3{
+    margin-left: 170px;
+}
+.name4{
+    margin-left: 165px;
+}
+.name5{
+    margin-left: 225px;
+}
+.name6{
+    margin-left: 160px;
+}
+
+
+/* footer */
+footer{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 200px;
+    height: 60px;
+    margin-left: 620px;
+    margin-top: 356px;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+    justify-content:space-around;
+}
+nav ul li a{
+    text-decoration:none;
+    color: #999999;
+    display: block;
+    transition: 0.5s;
+}
+.nav-icon{
+    width: 200px;
+}
+.fa{
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.fa-facebook{
+    margin-left: 15px;
+}
+.fa-facebook:hover{
+    color:#4267B2;
+}
+.fa-twitter:hover{
+    color:#00acee;
+}
+.fa-instagram:hover{
+    color:#bc2a8d;
+}
+.fa-youtube-play:hover{
+    color:#FF0000;
+}
+.footer_text{
+    text-align: center;
+    margin-top: 28px;
+}
+.text{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #303030;
+    line-height: 5px;
+}
+.student{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #303030;
+    margin-top: 40px;
+}
+div h2{
+    margin-top: -10px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #303030;
+}
