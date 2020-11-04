@@ -91,8 +91,8 @@ body{
     box-shadow: #666 0 0 5px;
 }
 .slider_container div {
-    -webkit-animation: round 25s linear infinite;
-            animation: round 25s linear infinite;
+    -webkit-animation: round 18s linear infinite;
+            animation: round 18s linear infinite;
 }
 
 @-webkit-keyframes round {
@@ -134,28 +134,28 @@ body{
             animation-delay: 0s;
 }
 .slider_container div:nth-child(5) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
 }
 
 .slider_container div:nth-child(4) {
-    -webkit-animation-delay: 5s;
-            animation-delay: 5s;
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
 }
 
 .slider_container div:nth-child(3) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s;
 }
 
 .slider_container div:nth-child(2) {
-    -webkit-animation-delay: 15s;
-            animation-delay: 15s;
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s;
 }
 
 .slider_container div:nth-child(1) {
-    -webkit-animation-delay: 20s;
-            animation-delay: 20s;
+    -webkit-animation-delay: 15s;
+            animation-delay: 15s;
 }
 .slider_container div {
     position: absolute;
