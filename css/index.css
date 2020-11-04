@@ -97,8 +97,9 @@ body{
     position: relative;
     top:-100px;
     display: inline-block;
-    width: 18px;
-    height: 18px;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
     border-radius: 999em;
     background-color: #f4f4f4;
     cursor:pointer;
