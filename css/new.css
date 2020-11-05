@@ -6,7 +6,7 @@ html{
     height:3325px;
     box-sizing: border-box;
     border:1px solid black;
-    margin: center;
+    margin: auto;
 
  }
  *,*:before,*:after{
